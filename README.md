@@ -7,12 +7,12 @@ RGB LED controlled via ESP8266-based Web Server
 * interaction via /help.html
 
 hardware: 
-  wemos d1 mini with rgb led shield
+  - wemos d1 mini with rgb led shield
     * https://wiki.wemos.cc/products:d1:d1_mini
     * https://wiki.wemos.cc/products:d1_mini_shields:rgb_led_shield
   
 software: 
-  Arduino IDE
+  - Arduino IDE
     * addtional data upload for static web server files, see https://github.com/esp8266/arduino-esp8266fs-plugin
     
     
