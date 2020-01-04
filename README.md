@@ -3,8 +3,8 @@ RGB LED controlled via ESP8266-based Web Server
 
 * web server based on ESP8266
 * using static private IP address, useful for port forwarding from WLAN router
-* home page /index.html intentionally without function
-* interaction via /help.html
+* home page * * /index.html * * intentionally without function
+* interaction via * * /help.html * *
 
 hardware: 
   - wemos d1 mini with rgb led shield
