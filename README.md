@@ -5,6 +5,7 @@ RGB LED controlled via ESP8266-based Web Server
 * using static private IP address, useful for port forwarding from WLAN router
 * home page _/index.html_ intentionally without function
 * interaction via _/help.html_
+* additional feature: logging request resulting in 404 error, see _/logg_ 
 
 hardware: 
   - wemos d1 mini with rgb led shield
