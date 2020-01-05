@@ -18,5 +18,8 @@ software:
     
 setup:
   - clone repository
+  - set up the Arduino IDE
   - edit `weak-web222-led.ino`
     * set wifi credentials in [line 101](/weak-web222-led.ino#L101)
+    * set your static ip for local network in [line 253](/weak-web222-led.ino#L253)
+    
