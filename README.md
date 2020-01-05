@@ -2,7 +2,9 @@
 RGB LED controlled via ESP8266-based Web Server 
 
 * web server based on ESP8266
-* using static private IP address, useful for port forwarding from WLAN router
+* using static private IP address
+  - useful for port forwarding from WLAN router
+  - public web server when using dynDNS
 * home page `/index.html` intentionally without function
 * interaction via `/help.html`
 * additional feature: logging request resulting in 404 error, see `/logg` 
@@ -21,5 +23,7 @@ setup:
   - set up the Arduino IDE
   - edit `weak-web222-led.ino`
     * set wifi credentials in [line 101](/weak-web222-led.ino#L101)
+      - hint: guest network might not work with port forwarding
     * set your static ip for local network in [line 253](/weak-web222-led.ino#L253)
-    
+      - hint: needs to be outside DHCP range
+  - use / configure (external) dynDNS service
