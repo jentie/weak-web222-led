@@ -14,7 +14,7 @@ hardware:
   
 software: 
   - Arduino IDE
-    * addtional data upload for static web server files, see https://github.com/esp8266/arduino-esp8266fs-plugin
+    * additional data upload for static web server files, see https://github.com/esp8266/arduino-esp8266fs-plugin
     
 setup:
   - clone repository
